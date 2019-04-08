@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".DetalhesAluno">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Nome: "
+            android:textStyle="bold"
+            android:layout_gravity="center"
+            android:layout_margin="5dp"
+            android:textSize="36dp"/>
+
+
+        <TextView
+            android:id="@+id/nome"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Nome Da pessoa"
+            android:layout_margin="5dp"
+            android:textSize="36dp"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Curso: "
+            android:textStyle="bold"
+            android:layout_gravity="center"
+            android:layout_margin="5dp"
+            android:textSize="36dp"/>
+
+
+        <TextView
+            android:id="@+id/curso"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Nome Da pessoa"
+            android:layout_margin="5dp"
+            android:textSize="36dp"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Telefone: "
+            android:textStyle="bold"
+            android:layout_margin="5dp"
+            android:textSize="36dp"/>
+
+
+        <TextView
+            android:id="@+id/telefone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Nome Da pessoa"
+            android:layout_margin="5dp"
+            android:textSize="36dp"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Endereço: "
+            android:textStyle="bold"
+            android:layout_margin="5dp"
+            android:textSize="36dp"/>
+
+
+        <TextView
+            android:id="@+id/endereco"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Nome Da pessoa"
+            android:layout_margin="5dp"
+            android:textSize="36dp"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Matricula: "
+            android:textStyle="bold"
+            android:layout_margin="5dp"
+            android:textSize="36dp"/>
+
+
+        <TextView
+            android:id="@+id/matricula"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Nome Da pessoa"
+            android:layout_margin="5dp"
+            android:textSize="36dp"/>
+    </LinearLayout>
+
+
+
+
+
+</LinearLayout>
