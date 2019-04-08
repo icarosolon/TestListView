@@ -21,10 +21,10 @@ public class MainActivity extends AppCompatActivity {
 
 
         alunos = new ArrayList<>();
-        alunos.add(new Aluno("João", "Computação"));
-        alunos.add(new Aluno("Maria", "Enfermagem"));
-        alunos.add(new Aluno("Jose", "Medicina"));
-        alunos.add(new Aluno("Carlos", "Gestão de TI"));
+        alunos.add(new Aluno("Valtency", "Computação"));
+        alunos.add(new Aluno("Lívia", "Enfermagem"));
+        alunos.add(new Aluno("Augusto", "Medicina"));
+        alunos.add(new Aluno("Welson", "Gestão de TI"));
 
         AlunoAdapter adapter = new AlunoAdapter(this, alunos );
         ListView listView = findViewById(R.id.list_view);
